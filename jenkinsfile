@@ -1,0 +1,5 @@
+node{
+stage('scm'){
+  git 'https://github.com/kolaverid/spring-petclinic.git'
+}
+}
