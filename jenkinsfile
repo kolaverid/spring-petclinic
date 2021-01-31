@@ -1,5 +1,5 @@
 node{
 stage('scm'){
-  git 'https://github.com/kolaverid/spring-petclinic.git'
+  git 'https://github.com/philipino123/spring-petclinic.git'
 }
 }
