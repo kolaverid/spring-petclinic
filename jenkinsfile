@@ -1,5 +1,9 @@
-node{
-stage('scm'){
-  git 'https://github.com/philipino123/spring-petclinic.git'
-}
+node {
+    stage('scm'){
+        
+    }
+
+    stage('build'){
+        sh 'mvn package'
+    }
 }
